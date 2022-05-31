@@ -7,6 +7,6 @@ jobs:
   build:
     executor:
       name: win/default
-      size: 2xlarge
+      size: xlarge
     steps:
       - run: Write-Host 'Hello, Windows'
