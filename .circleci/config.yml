@@ -7,6 +7,6 @@ jobs:
   build:
     executor:
       name: win/default
-      size: xlarge
+      size: "medium" # can be "medium", "large", "xlarge", "2xlarge"
     steps:
       - run: Write-Host 'Hello, Windows'
